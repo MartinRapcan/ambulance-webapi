@@ -25,7 +25,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v4
       with: 
-      go-version: ${{ steps.get_go_version.outputs.go_version }}
+        go-version: ${{ steps.get_go_version.outputs.go_version }}
 
     - name: Set up Go
       uses: actions/setup-go@v4
